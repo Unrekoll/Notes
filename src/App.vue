@@ -87,7 +87,6 @@ export default {
   },
   methods: {
     addNote() {
-      //console.log(this.note)
       let { title, descr } = this.note;
       if (title === "") {
         this.message = "title can`t be blank!";
